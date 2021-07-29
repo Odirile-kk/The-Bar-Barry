@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24C85C026A6EA3200D97C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */; };
+		C24C85C226A6EA3200D97C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */; };
+		C24C85C426A6EA3200D97C2C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85C326A6EA3200D97C2C /* DetailViewController.swift */; };
+		C24C85C726A6EA3200D97C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24C85C526A6EA3200D97C2C /* Main.storyboard */; };
+		C24C85C926A6EA3600D97C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24C85C826A6EA3600D97C2C /* Assets.xcassets */; };
+		C24C85CC26A6EA3600D97C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24C85CA26A6EA3600D97C2C /* LaunchScreen.storyboard */; };
+		C24C85D726A6EA3700D97C2C /* BarBerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85D626A6EA3700D97C2C /* BarBerryTests.swift */; };
+		C24C85E226A6EA3700D97C2C /* BarBerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85E126A6EA3700D97C2C /* BarBerryUITests.swift */; };
+		C24C85F326A6EF8A00D97C2C /* barList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85F226A6EF8A00D97C2C /* barList.swift */; };
+		C24C85F526A6EF9D00D97C2C /* ApiServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */; };
+		C24C85FB26A806D700D97C2C /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FA26A806D700D97C2C /* BarTableViewController.swift */; };
+		C24C85FD26A8071000D97C2C /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FC26A8071000D97C2C /* FavViewController.swift */; };
+		C24C85FF26A807EC00D97C2C /* ViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */; };
+		C24C860126A80B5500D97C2C /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C860026A80B5500D97C2C /* Drinks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24C85D326A6EA3700D97C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24C85B426A6EA3200D97C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24C85BB26A6EA3200D97C2C;
+			remoteInfo = BarBerry;
+		};
+		C24C85DE26A6EA3700D97C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24C85B426A6EA3200D97C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24C85BB26A6EA3200D97C2C;
+			remoteInfo = BarBerry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24C85BC26A6EA3200D97C2C /* BarBerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C24C85C326A6EA3200D97C2C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C24C85C626A6EA3200D97C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24C85C826A6EA3600D97C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24C85CB26A6EA3600D97C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24C85CD26A6EA3600D97C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24C85D226A6EA3700D97C2C /* BarBerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBerryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24C85D626A6EA3700D97C2C /* BarBerryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBerryTests.swift; sourceTree = "<group>"; };
+		C24C85D826A6EA3700D97C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24C85DD26A6EA3700D97C2C /* BarBerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarBerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24C85E126A6EA3700D97C2C /* BarBerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBerryUITests.swift; sourceTree = "<group>"; };
+		C24C85E326A6EA3700D97C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24C85F226A6EF8A00D97C2C /* barList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barList.swift; sourceTree = "<group>"; };
+		C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceCall.swift; sourceTree = "<group>"; };
+		C24C85FA26A806D700D97C2C /* BarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
+		C24C85FC26A8071000D97C2C /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTableViewCell.swift; sourceTree = "<group>"; };
+		C24C860026A80B5500D97C2C /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24C85B926A6EA3200D97C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85CF26A6EA3700D97C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85DA26A6EA3700D97C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24C85B326A6EA3200D97C2C = {
+			isa = PBXGroup;
+			children = (
+				C24C85BE26A6EA3200D97C2C /* BarBerry */,
+				C24C85D526A6EA3700D97C2C /* BarBerryTests */,
+				C24C85E026A6EA3700D97C2C /* BarBerryUITests */,
+				C24C85BD26A6EA3200D97C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24C85BD26A6EA3200D97C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85BC26A6EA3200D97C2C /* BarBerry.app */,
+				C24C85D226A6EA3700D97C2C /* BarBerryTests.xctest */,
+				C24C85DD26A6EA3700D97C2C /* BarBerryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24C85BE26A6EA3200D97C2C /* BarBerry */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85F126A6EF2200D97C2C /* Calls */,
+				C24C85F026A6EF1400D97C2C /* Views */,
+				C24C85EF26A6EF0500D97C2C /* Model */,
+				C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */,
+				C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */,
+				C24C85C526A6EA3200D97C2C /* Main.storyboard */,
+				C24C85C826A6EA3600D97C2C /* Assets.xcassets */,
+				C24C85CA26A6EA3600D97C2C /* LaunchScreen.storyboard */,
+				C24C85CD26A6EA3600D97C2C /* Info.plist */,
+			);
+			path = BarBerry;
+			sourceTree = "<group>";
+		};
+		C24C85D526A6EA3700D97C2C /* BarBerryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85D626A6EA3700D97C2C /* BarBerryTests.swift */,
+				C24C85D826A6EA3700D97C2C /* Info.plist */,
+			);
+			path = BarBerryTests;
+			sourceTree = "<group>";
+		};
+		C24C85E026A6EA3700D97C2C /* BarBerryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85E126A6EA3700D97C2C /* BarBerryUITests.swift */,
+				C24C85E326A6EA3700D97C2C /* Info.plist */,
+			);
+			path = BarBerryUITests;
+			sourceTree = "<group>";
+		};
+		C24C85EF26A6EF0500D97C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85F226A6EF8A00D97C2C /* barList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C24C85F026A6EF1400D97C2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85C326A6EA3200D97C2C /* DetailViewController.swift */,
+				C24C85FA26A806D700D97C2C /* BarTableViewController.swift */,
+				C24C85FC26A8071000D97C2C /* FavViewController.swift */,
+				C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C24C85F126A6EF2200D97C2C /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+				C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */,
+				C24C860026A80B5500D97C2C /* Drinks.swift */,
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24C85BB26A6EA3200D97C2C /* BarBerry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24C85E626A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerry" */;
+			buildPhases = (
+				C24C85B826A6EA3200D97C2C /* Sources */,
+				C24C85B926A6EA3200D97C2C /* Frameworks */,
+				C24C85BA26A6EA3200D97C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarBerry;
+			productName = BarBerry;
+			productReference = C24C85BC26A6EA3200D97C2C /* BarBerry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24C85D126A6EA3700D97C2C /* BarBerryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24C85E926A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerryTests" */;
+			buildPhases = (
+				C24C85CE26A6EA3700D97C2C /* Sources */,
+				C24C85CF26A6EA3700D97C2C /* Frameworks */,
+				C24C85D026A6EA3700D97C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24C85D426A6EA3700D97C2C /* PBXTargetDependency */,
+			);
+			name = BarBerryTests;
+			productName = BarBerryTests;
+			productReference = C24C85D226A6EA3700D97C2C /* BarBerryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C24C85DC26A6EA3700D97C2C /* BarBerryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24C85EC26A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerryUITests" */;
+			buildPhases = (
+				C24C85D926A6EA3700D97C2C /* Sources */,
+				C24C85DA26A6EA3700D97C2C /* Frameworks */,
+				C24C85DB26A6EA3700D97C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24C85DF26A6EA3700D97C2C /* PBXTargetDependency */,
+			);
+			name = BarBerryUITests;
+			productName = BarBerryUITests;
+			productReference = C24C85DD26A6EA3700D97C2C /* BarBerryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24C85B426A6EA3200D97C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C24C85BB26A6EA3200D97C2C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C24C85D126A6EA3700D97C2C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C24C85BB26A6EA3200D97C2C;
+					};
+					C24C85DC26A6EA3700D97C2C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C24C85BB26A6EA3200D97C2C;
+					};
+				};
+			};
+			buildConfigurationList = C24C85B726A6EA3200D97C2C /* Build configuration list for PBXProject "BarBerry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24C85B326A6EA3200D97C2C;
+			productRefGroup = C24C85BD26A6EA3200D97C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24C85BB26A6EA3200D97C2C /* BarBerry */,
+				C24C85D126A6EA3700D97C2C /* BarBerryTests */,
+				C24C85DC26A6EA3700D97C2C /* BarBerryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24C85BA26A6EA3200D97C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C85CC26A6EA3600D97C2C /* LaunchScreen.storyboard in Resources */,
+				C24C85C926A6EA3600D97C2C /* Assets.xcassets in Resources */,
+				C24C85C726A6EA3200D97C2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85D026A6EA3700D97C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85DB26A6EA3700D97C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24C85B826A6EA3200D97C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C85FF26A807EC00D97C2C /* ViewTableViewCell.swift in Sources */,
+				C24C85C426A6EA3200D97C2C /* DetailViewController.swift in Sources */,
+				C24C85FB26A806D700D97C2C /* BarTableViewController.swift in Sources */,
+				C24C860126A80B5500D97C2C /* Drinks.swift in Sources */,
+				C24C85FD26A8071000D97C2C /* FavViewController.swift in Sources */,
+				C24C85F326A6EF8A00D97C2C /* barList.swift in Sources */,
+				C24C85C026A6EA3200D97C2C /* AppDelegate.swift in Sources */,
+				C24C85C226A6EA3200D97C2C /* SceneDelegate.swift in Sources */,
+				C24C85F526A6EF9D00D97C2C /* ApiServiceCall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85CE26A6EA3700D97C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C85D726A6EA3700D97C2C /* BarBerryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24C85D926A6EA3700D97C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C85E226A6EA3700D97C2C /* BarBerryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24C85D426A6EA3700D97C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24C85BB26A6EA3200D97C2C /* BarBerry */;
+			targetProxy = C24C85D326A6EA3700D97C2C /* PBXContainerItemProxy */;
+		};
+		C24C85DF26A6EA3700D97C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24C85BB26A6EA3200D97C2C /* BarBerry */;
+			targetProxy = C24C85DE26A6EA3700D97C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24C85C526A6EA3200D97C2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24C85C626A6EA3200D97C2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C24C85CA26A6EA3600D97C2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24C85CB26A6EA3600D97C2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24C85E426A6EA3700D97C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C24C85E526A6EA3700D97C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24C85E726A6EA3700D97C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C24C85E826A6EA3700D97C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C24C85EA26A6EA3700D97C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBerry.app/BarBerry";
+			};
+			name = Debug;
+		};
+		C24C85EB26A6EA3700D97C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarBerry.app/BarBerry";
+			};
+			name = Release;
+		};
+		C24C85ED26A6EA3700D97C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarBerry;
+			};
+			name = Debug;
+		};
+		C24C85EE26A6EA3700D97C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarBerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.odirile.BarBerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarBerry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24C85B726A6EA3200D97C2C /* Build configuration list for PBXProject "BarBerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24C85E426A6EA3700D97C2C /* Debug */,
+				C24C85E526A6EA3700D97C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24C85E626A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24C85E726A6EA3700D97C2C /* Debug */,
+				C24C85E826A6EA3700D97C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24C85E926A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24C85EA26A6EA3700D97C2C /* Debug */,
+				C24C85EB26A6EA3700D97C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24C85EC26A6EA3700D97C2C /* Build configuration list for PBXNativeTarget "BarBerryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24C85ED26A6EA3700D97C2C /* Debug */,
+				C24C85EE26A6EA3700D97C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24C85B426A6EA3200D97C2C /* Project object */;
+}
