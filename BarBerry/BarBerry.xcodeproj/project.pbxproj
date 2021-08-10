@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C240B69C26BD60AC00C024BF /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B69B26BD60AC00C024BF /* FavTableViewController.swift */; };
+		C240B69E26BD60BF00C024BF /* FaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B69D26BD60BF00C024BF /* FaveTableViewCell.swift */; };
 		C24C85C026A6EA3200D97C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */; };
 		C24C85C226A6EA3200D97C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */; };
 		C24C85C426A6EA3200D97C2C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85C326A6EA3200D97C2C /* DetailViewController.swift */; };
@@ -16,11 +18,10 @@
 		C24C85D726A6EA3700D97C2C /* BarBerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85D626A6EA3700D97C2C /* BarBerryTests.swift */; };
 		C24C85E226A6EA3700D97C2C /* BarBerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85E126A6EA3700D97C2C /* BarBerryUITests.swift */; };
 		C24C85F326A6EF8A00D97C2C /* barList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85F226A6EF8A00D97C2C /* barList.swift */; };
-		C24C85F526A6EF9D00D97C2C /* ApiServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */; };
 		C24C85FB26A806D700D97C2C /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FA26A806D700D97C2C /* BarTableViewController.swift */; };
-		C24C85FD26A8071000D97C2C /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FC26A8071000D97C2C /* FavViewController.swift */; };
 		C24C85FF26A807EC00D97C2C /* ViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */; };
-		C24C860126A80B5500D97C2C /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C860026A80B5500D97C2C /* Drinks.swift */; };
+		C24C860126A80B5500D97C2C /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24C860026A80B5500D97C2C /* Drink.swift */; };
+		C2741CFC26B56C5D0015D0CE /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2741CFB26B56C5D0015D0CE /* OnBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C240B69B26BD60AC00C024BF /* FavTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
+		C240B69D26BD60BF00C024BF /* FaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaveTableViewCell.swift; sourceTree = "<group>"; };
 		C24C85BC26A6EA3200D97C2C /* BarBerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarBerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,11 +59,10 @@
 		C24C85E126A6EA3700D97C2C /* BarBerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBerryUITests.swift; sourceTree = "<group>"; };
 		C24C85E326A6EA3700D97C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C24C85F226A6EF8A00D97C2C /* barList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barList.swift; sourceTree = "<group>"; };
-		C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceCall.swift; sourceTree = "<group>"; };
 		C24C85FA26A806D700D97C2C /* BarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewController.swift; sourceTree = "<group>"; };
-		C24C85FC26A8071000D97C2C /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
 		C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTableViewCell.swift; sourceTree = "<group>"; };
-		C24C860026A80B5500D97C2C /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		C24C860026A80B5500D97C2C /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		C2741CFB26B56C5D0015D0CE /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C240B69F26C0059E00C024BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C240B69D26BD60BF00C024BF /* FaveTableViewCell.swift */,
+				C240B69B26BD60AC00C024BF /* FavTableViewController.swift */,
+				C2741CFB26B56C5D0015D0CE /* OnBoardViewController.swift */,
+				C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */,
+				C24C85FA26A806D700D97C2C /* BarTableViewController.swift */,
+				C24C85C326A6EA3200D97C2C /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C24C85B326A6EA3200D97C2C = {
 			isa = PBXGroup;
 			children = (
@@ -111,15 +126,15 @@
 		C24C85BE26A6EA3200D97C2C /* BarBerry */ = {
 			isa = PBXGroup;
 			children = (
-				C24C85F126A6EF2200D97C2C /* Calls */,
-				C24C85F026A6EF1400D97C2C /* Views */,
+				C24C85CD26A6EA3600D97C2C /* Info.plist */,
 				C24C85EF26A6EF0500D97C2C /* Model */,
+				C24C85F026A6EF1400D97C2C /* Views */,
+				C240B69F26C0059E00C024BF /* Controller */,
 				C24C85BF26A6EA3200D97C2C /* AppDelegate.swift */,
 				C24C85C126A6EA3200D97C2C /* SceneDelegate.swift */,
 				C24C85C526A6EA3200D97C2C /* Main.storyboard */,
 				C24C85C826A6EA3600D97C2C /* Assets.xcassets */,
 				C24C85CA26A6EA3600D97C2C /* LaunchScreen.storyboard */,
-				C24C85CD26A6EA3600D97C2C /* Info.plist */,
 			);
 			path = BarBerry;
 			sourceTree = "<group>";
@@ -145,6 +160,7 @@
 		C24C85EF26A6EF0500D97C2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C24C860026A80B5500D97C2C /* Drink.swift */,
 				C24C85F226A6EF8A00D97C2C /* barList.swift */,
 			);
 			path = Model;
@@ -153,21 +169,8 @@
 		C24C85F026A6EF1400D97C2C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C24C85C326A6EA3200D97C2C /* DetailViewController.swift */,
-				C24C85FA26A806D700D97C2C /* BarTableViewController.swift */,
-				C24C85FC26A8071000D97C2C /* FavViewController.swift */,
-				C24C85FE26A807EC00D97C2C /* ViewTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		C24C85F126A6EF2200D97C2C /* Calls */ = {
-			isa = PBXGroup;
-			children = (
-				C24C85F426A6EF9D00D97C2C /* ApiServiceCall.swift */,
-				C24C860026A80B5500D97C2C /* Drinks.swift */,
-			);
-			path = Calls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,15 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2741CFC26B56C5D0015D0CE /* OnBoardViewController.swift in Sources */,
+				C240B69E26BD60BF00C024BF /* FaveTableViewCell.swift in Sources */,
 				C24C85FF26A807EC00D97C2C /* ViewTableViewCell.swift in Sources */,
 				C24C85C426A6EA3200D97C2C /* DetailViewController.swift in Sources */,
 				C24C85FB26A806D700D97C2C /* BarTableViewController.swift in Sources */,
-				C24C860126A80B5500D97C2C /* Drinks.swift in Sources */,
-				C24C85FD26A8071000D97C2C /* FavViewController.swift in Sources */,
+				C24C860126A80B5500D97C2C /* Drink.swift in Sources */,
 				C24C85F326A6EF8A00D97C2C /* barList.swift in Sources */,
 				C24C85C026A6EA3200D97C2C /* AppDelegate.swift in Sources */,
 				C24C85C226A6EA3200D97C2C /* SceneDelegate.swift in Sources */,
-				C24C85F526A6EF9D00D97C2C /* ApiServiceCall.swift in Sources */,
+				C240B69C26BD60AC00C024BF /* FavTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
